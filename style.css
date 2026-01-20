@@ -1,25 +1,45 @@
 /* General styles */
 body {
   font-family: Arial, Helvetica, sans-serif;
-  background-color: #f5f5f5;
-  color: #333;
+  background-color: #1a1a1a;
+  color: #e0e0e0;
   margin: 0;
   padding: 0;
   line-height: 1.6;
 }
 
-/* Header */
-header {
-  background-color: #ffffff;
-  padding: 30px 20px;
+/* Navigation */
+nav {
+  background-color: #2a2a2a;
+  padding: 15px 20px;
   text-align: center;
-  border-bottom: 2px solid #e0e0e0;
+  border-bottom: 1px solid #3a3a3a;
+  position: sticky;
+  top: 0;
+  z-index: 100;
 }
 
-header h1 {
-  margin: 0;
-  font-size: 32px;
-  color: #222;
+nav a {
+  color: #b8b8b8;
+  text-decoration: none;
+  padding: 10px 20px;
+  margin: 0 5px;
+  border-radius: 5px;
+  transition: background-color 0.3s, color 0.3s;
+  display: inline-block;
+}
+
+nav a:hover {
+  background-color: #3a3a3a;
+  color: #4dabf7;
+}
+
+/* Header */
+header {
+  background-color: #2a2a2a;
+  padding: 30px 20px;
+  text-align: center;
+  border-bottom: 2px solid #3a3a3a;
 }
 
 /* Main content area */
@@ -31,28 +51,28 @@ main {
 
 /* Article styles */
 article {
-  background-color: #ffffff;
+  background-color: #2a2a2a;
   padding: 25px;
   margin-bottom: 30px;
   border-radius: 8px;
-  border: 1px solid #e0e0e0;
+  border: 1px solid #3a3a3a;
 }
 
 article h2 {
   margin-top: 0;
   font-size: 24px;
-  color: #222;
+  color: #ffffff;
   line-height: 1.4;
 }
 
 article p {
   margin: 15px 0;
   font-size: 16px;
-  color: #555;
+  color: #b8b8b8;
 }
 
 article a {
-  color: #007acc;
+  color: #4dabf7;
   text-decoration: none;
   font-weight: bold;
 }
@@ -63,20 +83,20 @@ article a:hover {
 
 /* Featured article */
 #featured {
-  background-color: #e8f4f8;
-  border: 2px solid #007acc;
+  background-color: #1e3a4a;
+  border: 2px solid #4dabf7;
   padding: 30px;
   margin-bottom: 40px;
 }
 
 #featured h2 {
   font-size: 28px;
-  color: #005a8c;
+  color: #74c0fc;
 }
 
 /* Regular articles */
 .regular-article {
-  background-color: #ffffff;
+  background-color: #2a2a2a;
 }
 
 /* Metadata list */
@@ -85,7 +105,7 @@ article a:hover {
   padding: 0;
   margin: 10px 0;
   font-size: 14px;
-  color: #777;
+  color: #888;
 }
 
 .metadata li {
@@ -100,17 +120,17 @@ article a:hover {
 
 /* More articles section */
 #more-articles {
-  background-color: #ffffff;
+  background-color: #2a2a2a;
   padding: 25px;
   border-radius: 8px;
-  border: 1px solid #e0e0e0;
+  border: 1px solid #3a3a3a;
   margin-top: 40px;
 }
 
 #more-articles h3 {
   margin-top: 0;
   font-size: 20px;
-  color: #222;
+  color: #ffffff;
 }
 
 #more-articles ul {
@@ -124,7 +144,7 @@ article a:hover {
 }
 
 #more-articles a {
-  color: #007acc;
+  color: #4dabf7;
   text-decoration: none;
 }
 
