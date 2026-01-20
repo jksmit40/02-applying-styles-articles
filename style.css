@@ -36,10 +36,20 @@ nav a:hover {
 
 /* Header */
 header {
-  background-color: #2a2a2a;
-  padding: 30px 20px;
+  background: linear-gradient(135deg, #1a1a1a 0%, #2a2a2a 100%);
+  padding: 60px 20px;
   text-align: center;
-  border-bottom: 2px solid #3a3a3a;
+  border-bottom: 3px solid #4dabf7;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 48px;
+  color: #ffffff;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  text-shadow: 0 0 20px rgba(77, 171, 247, 0.5);
+  font-weight: bold;
 }
 
 /* Main content area */
